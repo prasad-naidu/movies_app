@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.add-movie{
+      width: 360px;
+      height: 283px;
+      background-color: #c6cd5c;
+      margin: auto;
+}
+
+#add{
+  margin-top: 10px;
+    color: #0f0f10;
+    background: #49bdd042;
+}
+#tables{
+  background: #84ffc17d;
+    font-size: 20px;
+}
+#actions{
+  width: 95px;
+  height: 40px;
+  font-size: 17px;
+  background: #b92525;
+  
+}
+#actions2{
+  width: 95px;
+  height: 40px;
+  font-size: 17px;
+  background: #50b925;
+}
+  /* body{
+  background-image: url("https://cdn.pixabay.com/photo/2015/09/02/12/45/movie-918655__340.jpg");
+} */
